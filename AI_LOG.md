@@ -675,3 +675,12 @@ boring0415
 已实际查询项目文件、Git/gh 账号和远端状态，探测媒体、计算校验值并复核画面。提交前还将核对暂存文件、敏感信息、体积和保护文件哈希；上传成功必须以随后实际 push 及远端 Git 树/提交/公开下载核验为准，不能用本节准备状态代替成功结果。本轮没有重新运行 go test、npm build、Unity 编译或手机安装；既有历史结果仍按原日期保留。后续真实上传结果另行追加，失败也如实记录。
 
 提交前实际检查：177 个暂存文件（170 个文本文件）中，已知凭据/私钥/令牌格式和非空长密码赋值扫描未检出命中；禁止目录/后缀、100 MiB 超大文件、必需文件缺失及主 README/交付索引失效本地链接均为 0。该扫描不声称穷尽所有可能的秘密格式。126 个受保护源码/配置/数据文件 SHA256 无变化，原 AI_LOG 的完整字节前缀一致；14 个精选历史日志/截图副本与原件哈希一致。git diff --cached --check 返回 2，63 个既有 Unity YAML/meta 或历史证据文件存在空白风格告警；为保留业务文件及原始证据未批量格式化，不将该项说成通过。
+
+### 实际上传与远端核验结果
+
+- 已在实际工程建立首个提交：`2c2340f7cbc662adc7162867cb336b28bdd62c5f`，消息 `chore: prepare Unity AR assignment deliverables`，分支 main。此前根目录没有 Git 历史，因此不存在覆盖该目录既有提交的问题。
+- 两次直接 HTTPS 推送分别失败于 Connection was reset、无法连接 github.com:443，未冒称上传成功。发现电脑已经启用系统代理，而 Git 未自动使用；只在随后 git push 命令中指定当前已有代理及 HTTP/1.1，未修改全局代理、未安装软件、未索取或保存密码/Token。
+- 随后的普通 `git push -u origin main`（附上述单次网络及 gh 凭据助手参数）真实成功，输出 new branch main -> main，设置跟踪 origin/main；没有 force、reset、删除或覆盖远端历史，autodev 未操作。
+- GitHub API 返回公开仓库 <https://github.com/boring0415/unity-ar-inspection-assignment> 的 main 提交为上述完整哈希。递归读取远端 Git 树，177 个文件的全部 blob ID 与本地提交一致；Unity Assets/Packages/ProjectSettings 合计 104 文件，admin 13 文件，backend 9 文件，README 与 AI_LOG 均存在，视频的大小和 Git blob ID 一致。
+- 对两个 raw.githubusercontent.com 公开视频 URL 进行不携带授权凭据的 HEAD 请求，均 HTTP 200，Content-Length 分别为 10,872,077 和 18,339,752；没有以“本地文件存在”代替远端验证。已授权 GitHub 插件也成功读取远端 README 第 1–14 行。
+- 本段补记的是已经执行成功的首批上传和远端核验，随后将仅此真实日志补记另行提交并普通推送，再核对最终 main。源码、业务数据及视频不会为该补记更改。本次未重新运行三端功能测试；尚未确认的课程额外材料与边界测试仍按 README 保留。
