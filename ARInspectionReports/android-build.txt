@@ -1,0 +1,7 @@
+UTC: 2026-10-27T09:32:11.8890171Z
+Result: Succeeded
+Errors: 0
+Warnings: 1
+Duration: 00:00:12.3948894
+Output: C:/Users/34858/unityartest/Builds/Android/MinimalARInspection.apk
+Warning: Diagnostics Data is enabled, and it requires Debug Symbols to be either SymbolTable or Full to resolve stacktraces in crash reports. Consider selecting Full to receive fully-detailed crash reports.

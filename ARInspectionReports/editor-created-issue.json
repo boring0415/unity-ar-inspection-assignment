@@ -1,0 +1,1 @@
+{"id":"789f926046c2415526a29c94aa96bee7","title":"Unity 编辑器联调验证（非真机） 091321","description":"由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。","priority":"low","status":"open","position":{"x":0.41999998688697815,"y":0.07999999821186066,"z":1.2599999904632568},"createdAt":"2026-10-27T09:13:21.3509609Z","updatedAt":"2026-10-27T09:13:21.3509609Z"}

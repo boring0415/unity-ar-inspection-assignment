@@ -1,0 +1,13 @@
+{
+  "Artifact": "C:\\Users\\34858\\unityartest\\Builds\\Android\\MinimalAR.apk",
+  "Bytes": 38562840,
+  "SHA256": "6BB57DEF80E4C5AE58EA2548290C2069806A7C10981646BDE3777334AB692378",
+  "MinSdk": 25,
+  "TargetSdk": 36,
+  "Architecture": "arm64-v8a",
+  "CameraPermission": "present in final APK",
+  "ARCore": "Required",
+  "Depth": "not required",
+  "Signature": "apksigner verify passed; v2 signature",
+  "DeviceTest": "Not performed; no adb device connected"
+}

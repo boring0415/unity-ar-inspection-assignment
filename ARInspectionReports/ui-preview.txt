@@ -1,0 +1,18 @@
+EDITOR PLAY MODE ONLY; fixed preview Transform; no POST.
+Screen: 1467x728; canvas scale=1.076119
+Form Content: 巡检问题提交; rect=(x:-621.54, y:-20.00, width:1243.07, height:40.00); world=(733.50, 431.16, 0.00); vertices=24; culled=False; shader=UI/Default
+Form Content: 标题 *; rect=(x:-621.54, y:-14.00, width:1243.07, height:28.00); world=(733.50, 385.97, 0.00); vertices=12; culled=False; shader=UI/Default
+Title: ; rect=(x:-611.54, y:-18.00, width:1223.07, height:36.00); world=(733.50, 332.16, 0.00); vertices=0; culled=False; shader=UI/Default
+Title: 请输入问题标题; rect=(x:-611.54, y:-18.00, width:1223.07, height:36.00); world=(733.50, 332.16, 0.00); vertices=28; culled=False; shader=UI/Default
+Form Content: 描述（选填）; rect=(x:-621.54, y:-14.00, width:1243.07, height:28.00); world=(733.50, 278.36, 0.00); vertices=24; culled=False; shader=UI/Default
+Description: ; rect=(x:-611.54, y:-34.00, width:1223.07, height:68.00); world=(733.50, 207.33, 0.00); vertices=0; culled=False; shader=UI/Default
+Description: 补充问题情况; rect=(x:-611.54, y:-34.00, width:1223.07, height:68.00); world=(733.50, 207.33, 0.00); vertices=24; culled=False; shader=UI/Default
+Form Content: 优先级; rect=(x:-621.54, y:-14.00, width:1243.07, height:28.00); world=(733.50, 136.31, 0.00); vertices=12; culled=False; shader=UI/Default
+Priority: 中 · medium; rect=(x:-611.54, y:-17.00, width:1223.07, height:34.00); world=(733.50, 83.58, 0.00); vertices=32; culled=False; shader=UI/Default
+Form Content: 尚未放置标记; rect=(x:-621.54, y:-32.00, width:1243.07, height:64.00); world=(733.50, 11.48, 0.00); vertices=24; culled=False; shader=UI/Default
+Form Content: 标记已锁定。请填写标题，确认坐标后提交；需要换点可点击“开始下一条”。; rect=(x:-621.54, y:-56.00, width:1243.07, height:112.00); world=(733.50, -91.83, 0.00); vertices=0; culled=True; shader=UI/Default
+提交问题: 提交问题; rect=(x:-615.54, y:-23.00, width:1231.07, height:46.00); world=(733.50, -191.91, 0.00); vertices=0; culled=True; shader=UI/Default
+开始下一条（保留已有标记）: 开始下一条（保留已有标记）; rect=(x:-615.54, y:-20.00, width:1231.07, height:40.00); world=(733.50, -259.70, 0.00); vertices=0; culled=True; shader=UI/Default
+PASS: current-position UI raycast blocks Title
+PASS: current-position UI raycast blocks Priority
+PASS: current-position UI raycast blocks Submit button; draft locks placement

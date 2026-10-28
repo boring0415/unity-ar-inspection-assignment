@@ -1,0 +1,2 @@
+System.InvalidOperationException: Unknown inspection request: preview
+  at InspectionSubmissionTools.Poll () [0x000c2] in C:\Users\34858\unityartest\Assets\MinimalAR\Editor\InspectionSubmissionTools.cs:44 

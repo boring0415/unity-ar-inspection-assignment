@@ -1,0 +1,2 @@
+System.InvalidOperationException: UI raycast did not block Title
+  at InspectionSubmissionTools.PreviewChecks () [0x0012d] in C:\Users\34858\unityartest\Assets\MinimalAR\Editor\InspectionSubmissionTools.cs:244 

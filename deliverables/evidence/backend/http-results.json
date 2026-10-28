@@ -1,0 +1,82 @@
+[
+  {
+    "status": 200,
+    "step": "first health",
+    "body": {
+      "status": "ok"
+    }
+  },
+  {
+    "count": 1,
+    "step": "initial list"
+  },
+  {
+    "status": 201,
+    "step": "create",
+    "issue": {
+      "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+      "title": "后端验收：入口墙面破损",
+      "description": "通过真实 HTTP 创建并验证重启持久化；保留作业验收数据",
+      "priority": "high",
+      "status": "open",
+      "position": {
+        "x": 0.42,
+        "y": 0.03,
+        "z": 1.26
+      },
+      "createdAt": "2026-10-27T05:03:49.5928058Z",
+      "updatedAt": "2026-10-27T05:03:49.5928058Z"
+    }
+  },
+  {
+    "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+    "step": "list after create",
+    "count": 2
+  },
+  {
+    "status": 200,
+    "step": "update",
+    "issue": {
+      "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+      "title": "后端验收：入口墙面破损",
+      "description": "通过真实 HTTP 创建并验证重启持久化；保留作业验收数据",
+      "priority": "high",
+      "status": "in_progress",
+      "position": {
+        "x": 0.42,
+        "y": 0.03,
+        "z": 1.26
+      },
+      "createdAt": "2026-10-27T05:03:49.5928058Z",
+      "updatedAt": "2026-10-27T05:03:49.6034089Z"
+    }
+  },
+  {
+    "status": "in_progress",
+    "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+    "step": "list after update"
+  },
+  {
+    "status": 204,
+    "step": "CORS preflight"
+  },
+  {
+    "step": "stop first process",
+    "processID": 16864
+  },
+  {
+    "status": 200,
+    "step": "restart health",
+    "body": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+    "step": "restart persistence",
+    "passed": true,
+    "status": "in_progress",
+    "fileSHA256": "8B5FE0533E9E781400B63A82E38A0755106F0585A52DDA97B741232CCAE0D0AD",
+    "processID": 24752
+  }
+]

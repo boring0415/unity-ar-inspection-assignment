@@ -1,0 +1,8 @@
+UTC: 2026-10-27T09:31:59.4781194Z
+Unity: 6000.3.27f1
+PASS: existing scene AR references retained; scripts compiled; Chinese font imported
+PASS: POST route, exact request fields, UTF-8 escaping, marker coordinates, blank title and priority validation
+PASS: top-level array parsing; per-marker pending/submitted state
+Android Internet: true; HTTP: DevelopmentOnly
+API: http://10.159.55.168:8080
+No physical AR tracking, touch/keyboard, UI raycast or Android network test is implied.

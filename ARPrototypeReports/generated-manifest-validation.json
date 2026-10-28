@@ -1,0 +1,6 @@
+{
+  "CameraPermission": true,
+  "ARCameraRequired": true,
+  "ARCoreRequired": true,
+  "DepthNotRequired": true
+}

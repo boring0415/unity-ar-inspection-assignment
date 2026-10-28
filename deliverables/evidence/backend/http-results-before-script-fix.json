@@ -1,0 +1,31 @@
+[
+  {
+    "status": 200,
+    "body": {
+      "status": "ok"
+    },
+    "step": "first health"
+  },
+  {
+    "step": "initial list",
+    "count": 1
+  },
+  {
+    "status": 201,
+    "issue": {
+      "id": "32812835051949454bbcbfca6d6b034c",
+      "title": "后端验收：入口墙面破损",
+      "description": "通过真实 HTTP 创建并验证重启持久化；保留作业验收数据",
+      "priority": "high",
+      "status": "open",
+      "position": {
+        "x": 0.42,
+        "y": 0.03,
+        "z": 1.26
+      },
+      "createdAt": "2026-10-27T05:03:23.4754259Z",
+      "updatedAt": "2026-10-27T05:03:23.4754259Z"
+    },
+    "step": "create"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "issueCount": 4,
+  "oldAILogPreserved": true,
+  "requestFileRemaining": false,
+  "changedOriginalFiles": [
+    "ProjectSettings\\ProjectSettings.asset",
+    "backend\\data\\issues.json",
+    "Assets\\MinimalAR\\Scripts\\TapToPlaceCube.cs"
+  ],
+  "oldAILogBytes": 31948,
+  "unexpectedChanges": 0,
+  "oldAILogSHA256": "31B46B70E4984FE47FE70AB9F34D64BB73ABE8DF176FA1A557ABA1E1316A3146",
+  "originalSceneUnchanged": true,
+  "checkedOriginalFiles": 99
+}

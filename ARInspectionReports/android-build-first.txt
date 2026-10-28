@@ -1,0 +1,10 @@
+UTC: 2026-10-27T09:28:23.8390511Z
+Result: Succeeded
+Errors: 0
+Warnings: 2
+Duration: 00:02:40.3790730
+Output: C:/Users/34858/unityartest/Builds/Android/MinimalARInspection.apk
+Warning: The following asset(s) located in immutable packages were unexpectedly altered. Making changes to immutable packages isn't recommended because the changes can be lost without any warning during Package Manager operations.
+  Packages/com.unity.xr.arcore/Tests/Editor/Assets/TestReferenceImageLibrary.asset
+
+Warning: Diagnostics Data is enabled, and it requires Debug Symbols to be either SymbolTable or Full to resolve stacktraces in crash reports. Consider selecting Full to receive fully-detailed crash reports.

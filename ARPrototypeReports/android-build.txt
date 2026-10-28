@@ -1,0 +1,6 @@
+UTC: 2026-10-26T15:07:06.2598494Z
+Result: Succeeded
+Errors: 0
+Warnings: 3
+Duration: 00:07:40.8486908
+Output: C:/Users/34858/unityartest/Builds/Android/MinimalAR.apk

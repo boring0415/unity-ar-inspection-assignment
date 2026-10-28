@@ -1,0 +1,10 @@
+UTC: 2026-10-27T09:13:21.3164067Z
+EDITOR ONLY. One explicit test record; no phone AR test.
+Request: {"title":"Unity 编辑器联调验证（非真机） 091321","description":"由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。","priority":"low","position":{"x":0.41999998688697817,"y":0.07999999821186066,"z":1.2599999904632569}}
+HTTP: 201
+Body: {"id":"789f926046c2415526a29c94aa96bee7","title":"Unity 编辑器联调验证（非真机） 091321","description":"由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。","priority":"low","status":"open","position":{"x":0.41999998688697815,"y":0.07999999821186066,"z":1.2599999904632568},"createdAt":"2026-10-27T09:13:21.3509609Z","updatedAt":"2026-10-27T09:13:21.3509609Z"}
+
+HTTP: 200
+Body: [{"id":"32812835051949454bbcbfca6d6b034c","title":"后端验收：入口墙面破损","description":"通过真实 HTTP 创建并验证重启持久化；保留作业验收数据","priority":"high","status":"open","position":{"x":0.42,"y":0.03,"z":1.26},"createdAt":"2026-10-27T05:03:23.4754259Z","updatedAt":"2026-10-27T05:03:23.4754259Z"},{"id":"f4439c0c6464bb7fa85a4af89c237ae5","title":"后端验收：入口墙面破损","description":"通过真实 HTTP 创建并验证重启持久化；保留作业验收数据","priority":"high","status":"in_progress","position":{"x":0.42,"y":0.03,"z":1.26},"createdAt":"2026-10-27T05:03:49.5928058Z","updatedAt":"2026-10-27T05:03:49.6034089Z"},{"id":"0a28da3cdc13d1858f956d5b2e158c26","title":"React 联调验收：走廊地面破损","description":"通过 Go POST 创建，在 React 页面验证显示、状态更新与失败提示。","priority":"medium","status":"resolved","position":{"x":1.25,"y":0.03,"z":-2.5},"createdAt":"2026-10-27T05:22:54.0572387Z","updatedAt":"2026-10-27T05:26:26.6283863Z"},{"id":"789f926046c2415526a29c94aa96bee7","title":"Unity 编辑器联调验证（非真机） 091321","description":"由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。","priority":"low","status":"open","position":{"x":0.41999998688697815,"y":0.07999999821186066,"z":1.2599999904632568},"createdAt":"2026-10-27T09:13:21.3509609Z","updatedAt":"2026-10-27T09:13:21.3509609Z"}]
+
+PASS: UnityWebRequest POST 201 and GET verified

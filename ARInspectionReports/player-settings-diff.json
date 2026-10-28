@@ -1,0 +1,18 @@
+[
+  {
+    "SideIndicator": "=>",
+    "InputObject": "  ForceInternetPermission: 1"
+  },
+  {
+    "SideIndicator": "=>",
+    "InputObject": "  insecureHttpOption: 1"
+  },
+  {
+    "SideIndicator": "<=",
+    "InputObject": "  ForceInternetPermission: 0"
+  },
+  {
+    "SideIndicator": "<=",
+    "InputObject": "  insecureHttpOption: 0"
+  }
+]

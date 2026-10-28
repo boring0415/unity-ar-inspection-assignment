@@ -1,0 +1,10 @@
+2026/10/27 13:02:48 update issue: rename C:\Users\34858\AppData\Local\Temp\TestConcurrentRequestsPersistAllIssues794948913\001\data\.issues-1822531492.tmp C:\Users\34858\AppData\Local\Temp\TestConcurrentRequestsPersistAllIssues794948913\001\data\issues.json: Access is denied.
+--- FAIL: TestConcurrentRequestsPersistAllIssues (0.06s)
+    api_test.go:212: {"error":{"code":"storage_error","message":"could not save issue status"}}
+        
+    api_test.go:225: duplicate ID or lost update: {ID:38d0eeca974b744484dc6e0a27b4c4f5 Title:入口墙面破损 Description:左侧墙体存在裂缝 Priority:high Status:open Position:{X:0.42 Y:0.03 Z:1.26} CreatedAt:2026-10-27 05:02:48.8849917 +0000 UTC UpdatedAt:2026-10-27 05:02:48.8849917 +0000 UTC}
+2026/10/27 13:02:48 create issue: rename C:\Users\34858\AppData\Local\Temp\TestWriteFailureDoesNotChangeMemory4200195872\001\.issues-3439438093.tmp C:\Users\34858\AppData\Local\Temp\TestWriteFailureDoesNotChangeMemory4200195872\001\data: Access is denied.
+2026/10/27 13:02:48 update issue: rename C:\Users\34858\AppData\Local\Temp\TestWriteFailureDoesNotChangeMemory4200195872\001\.issues-3889153286.tmp C:\Users\34858\AppData\Local\Temp\TestWriteFailureDoesNotChangeMemory4200195872\001\data: Access is denied.
+FAIL
+FAIL	unityartest/backend	0.680s
+FAIL

@@ -1,0 +1,36 @@
+# Unity generated/local state; keep Assets, Packages, ProjectSettings and .meta files.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Bb]uilds/
+/UserSettings/
+/UnityARTest_BackUpThisFolder_ButDontShipItWithYourGame/
+/ARPrototypeBackup/
+/.utmp/
+/.vs/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.apk
+/*.aab
+
+# JavaScript and local verification output.
+**/node_modules/
+**/dist/
+**/.verify/
+*.tsbuildinfo
+
+# Local environment and signing credentials.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+.DS_Store
+Thumbs.db

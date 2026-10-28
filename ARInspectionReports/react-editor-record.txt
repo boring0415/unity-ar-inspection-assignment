@@ -1,0 +1,170 @@
+- banner:
+  - strong: AR 巡检
+  - generic: 问题管理端
+  - generic: Unity-AR 研发实操作业
+- main:
+  - paragraph: 巡检工作台
+  - heading "每一个问题，都有迹可循。" [level=1]
+  - paragraph: 查看空间巡检记录，跟进问题处理进度。
+  - button "刷新问题列表":
+    - generic: ↻
+    - text: 刷新问题列表
+  - region "问题统计":
+    - paragraph: 全部问题
+    - strong: "4"
+    - text: 巡检记录总数
+    - paragraph: 待处理
+    - strong: "2"
+    - text: open
+    - paragraph: 处理中
+    - strong: "1"
+    - text: in_progress
+    - paragraph: 已解决
+    - strong: "1"
+    - text: resolved
+  - region "巡检问题列表 4":
+    - heading "巡检问题列表 4" [level=2]:
+      - text: 巡检问题列表
+      - generic: "4"
+    - paragraph: 状态修改后点击保存，结果以服务端返回为准。
+    - generic: 已读取后端数据
+    - table "巡检问题、优先级、状态、坐标、创建及更新时间与状态操作":
+      - caption: 巡检问题、优先级、状态、坐标、创建及更新时间与状态操作
+      - rowgroup:
+        - row "问题详情 优先级 处理状态 空间坐标 记录时间 状态操作":
+          - columnheader "问题详情"
+          - columnheader "优先级"
+          - columnheader "处理状态"
+          - columnheader "空间坐标"
+          - columnheader "记录时间"
+          - columnheader "状态操作"
+      - rowgroup:
+        - row "后端验收：入口墙面破损 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据 ID 32812835051949454bbcbfca6d6b034c 高 · high 待处理 open X 0.42 Y 0.03 Z 1.26 创建 2026/10/27 13:03:23 更新 2026/10/27 13:03:23 设置「后端验收：入口墙面破损」的处理状态 待处理 保存状态":
+          - cell "后端验收：入口墙面破损 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据 ID 32812835051949454bbcbfca6d6b034c":
+            - heading "后端验收：入口墙面破损" [level=3]
+            - paragraph: 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据
+            - paragraph:
+              - text: ID
+              - code: 32812835051949454bbcbfca6d6b034c
+          - cell "高 · high":
+            - generic: 高 · high
+          - cell "待处理 open":
+            - generic: 待处理
+            - generic: open
+          - cell "X 0.42 Y 0.03 Z 1.26":
+            - term: X
+            - definition: "0.42"
+            - term: "Y"
+            - definition: "0.03"
+            - term: Z
+            - definition: "1.26"
+          - cell "创建 2026/10/27 13:03:23 更新 2026/10/27 13:03:23":
+            - generic: 创建
+            - time: 2026/10/27 13:03:23
+            - generic: 更新
+            - time: 2026/10/27 13:03:23
+          - cell "设置「后端验收：入口墙面破损」的处理状态 待处理 保存状态":
+            - generic: 设置「后端验收：入口墙面破损」的处理状态
+            - combobox "设置「后端验收：入口墙面破损」的处理状态":
+              - option "待处理" [selected]
+              - option "处理中"
+              - option "已解决"
+            - button "保存状态" [disabled]
+        - row "后端验收：入口墙面破损 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据 ID f4439c0c6464bb7fa85a4af89c237ae5 高 · high 处理中 in_progress X 0.42 Y 0.03 Z 1.26 创建 2026/10/27 13:03:49 更新 2026/10/27 13:03:49 设置「后端验收：入口墙面破损」的处理状态 处理中 保存状态":
+          - cell "后端验收：入口墙面破损 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据 ID f4439c0c6464bb7fa85a4af89c237ae5":
+            - heading "后端验收：入口墙面破损" [level=3]
+            - paragraph: 通过真实 HTTP 创建并验证重启持久化；保留作业验收数据
+            - paragraph:
+              - text: ID
+              - code: f4439c0c6464bb7fa85a4af89c237ae5
+          - cell "高 · high":
+            - generic: 高 · high
+          - cell "处理中 in_progress":
+            - generic: 处理中
+            - generic: in_progress
+          - cell "X 0.42 Y 0.03 Z 1.26":
+            - term: X
+            - definition: "0.42"
+            - term: "Y"
+            - definition: "0.03"
+            - term: Z
+            - definition: "1.26"
+          - cell "创建 2026/10/27 13:03:49 更新 2026/10/27 13:03:49":
+            - generic: 创建
+            - time: 2026/10/27 13:03:49
+            - generic: 更新
+            - time: 2026/10/27 13:03:49
+          - cell "设置「后端验收：入口墙面破损」的处理状态 处理中 保存状态":
+            - generic: 设置「后端验收：入口墙面破损」的处理状态
+            - combobox "设置「后端验收：入口墙面破损」的处理状态":
+              - option "待处理"
+              - option "处理中" [selected]
+              - option "已解决"
+            - button "保存状态" [disabled]
+        - row "React 联调验收：走廊地面破损 通过 Go POST 创建，在 React 页面验证显示、状态更新与失败提示。 ID 0a28da3cdc13d1858f956d5b2e158c26 中 · medium 已解决 resolved X 1.25 Y 0.03 Z -2.5 创建 2026/10/27 13:22:54 更新 2026/10/27 13:26:26 设置「React 联调验收：走廊地面破损」的处理状态 已解决 保存状态":
+          - cell "React 联调验收：走廊地面破损 通过 Go POST 创建，在 React 页面验证显示、状态更新与失败提示。 ID 0a28da3cdc13d1858f956d5b2e158c26":
+            - heading "React 联调验收：走廊地面破损" [level=3]
+            - paragraph: 通过 Go POST 创建，在 React 页面验证显示、状态更新与失败提示。
+            - paragraph:
+              - text: ID
+              - code: 0a28da3cdc13d1858f956d5b2e158c26
+          - cell "中 · medium":
+            - generic: 中 · medium
+          - cell "已解决 resolved":
+            - generic: 已解决
+            - generic: resolved
+          - cell "X 1.25 Y 0.03 Z -2.5":
+            - term: X
+            - definition: "1.25"
+            - term: "Y"
+            - definition: "0.03"
+            - term: Z
+            - definition: "-2.5"
+          - cell "创建 2026/10/27 13:22:54 更新 2026/10/27 13:26:26":
+            - generic: 创建
+            - time: 2026/10/27 13:22:54
+            - generic: 更新
+            - time: 2026/10/27 13:26:26
+          - cell "设置「React 联调验收：走廊地面破损」的处理状态 已解决 保存状态":
+            - generic: 设置「React 联调验收：走廊地面破损」的处理状态
+            - combobox "设置「React 联调验收：走廊地面破损」的处理状态":
+              - option "待处理"
+              - option "处理中"
+              - option "已解决" [selected]
+            - button "保存状态" [disabled]
+        - row "Unity 编辑器联调验证（非真机） 091321 由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。 ID 789f926046c2415526a29c94aa96bee7 低 · low 待处理 open X 0.41999998688697815 Y 0.07999999821186066 Z 1.2599999904632568 创建 2026/10/27 17:13:21 更新 2026/10/27 17:13:21 设置「Unity 编辑器联调验证（非真机） 091321」的处理状态 待处理 保存状态":
+          - cell "Unity 编辑器联调验证（非真机） 091321 由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。 ID 789f926046c2415526a29c94aa96bee7":
+            - heading "Unity 编辑器联调验证（非真机） 091321" [level=3]
+            - paragraph: 由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。
+            - paragraph:
+              - text: ID
+              - code: 789f926046c2415526a29c94aa96bee7
+          - cell "低 · low":
+            - generic: 低 · low
+          - cell "待处理 open":
+            - generic: 待处理
+            - generic: open
+          - cell "X 0.41999998688697815 Y 0.07999999821186066 Z 1.2599999904632568":
+            - term: X
+            - definition: "0.41999998688697815"
+            - term: "Y"
+            - definition: "0.07999999821186066"
+            - term: Z
+            - definition: "1.2599999904632568"
+          - cell "创建 2026/10/27 17:13:21 更新 2026/10/27 17:13:21":
+            - generic: 创建
+            - time: 2026/10/27 17:13:21
+            - generic: 更新
+            - time: 2026/10/27 17:13:21
+          - cell "设置「Unity 编辑器联调验证（非真机） 091321」的处理状态 待处理 保存状态":
+            - generic: 设置「Unity 编辑器联调验证（非真机） 091321」的处理状态
+            - combobox "设置「Unity 编辑器联调验证（非真机） 091321」的处理状态":
+              - option "待处理" [selected]
+              - option "处理中"
+              - option "已解决"
+            - button "保存状态" [disabled]
+    - generic: 数据来源：Go 后端
+    - generic: 上次完整刷新：2026/10/27 17:14:14
+  - generic: AR 发现问题 · 管理端跟进处理
+  - text: API：
+  - code: /api

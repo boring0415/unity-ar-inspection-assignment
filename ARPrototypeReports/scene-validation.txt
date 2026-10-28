@@ -1,0 +1,11 @@
+UTC: 2026-10-27T04:27:09.8799018Z
+Scene: Assets/Scenes/SampleScene.unity
+Unity: 6000.3.27f1
+Active target: Android
+PASS: 1 ARSession, 1 XROrigin, 1 Camera, 1 PlaneManager, 1 RaycastManager, 1 AnchorManager
+PASS: AR camera background/manager/pose driver; horizontal plane mesh prefab; 10cm Cube prefab; placement references
+PASS: New Input System; ARCore enabled on startup; AR Required; Depth Optional; IL2CPP; ARM64
+Graphics: OpenGLES3; Minimum SDK: 25; Target SDK: AndroidApiLevelAuto
+Application ID: com.DefaultCompany.unityartest
+Build scenes: Assets/Scenes/SampleScene.unity
+This validates editor configuration only. No physical tracking, camera-permission grant, or device test is implied.

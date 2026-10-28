@@ -1,0 +1,128 @@
+[
+  {
+    "id": "32812835051949454bbcbfca6d6b034c",
+    "title": "后端验收：入口墙面破损",
+    "description": "通过真实 HTTP 创建并验证重启持久化；保留作业验收数据",
+    "priority": "high",
+    "status": "open",
+    "position": {
+      "x": 0.42,
+      "y": 0.03,
+      "z": 1.26
+    },
+    "createdAt": "2026-10-27T05:03:23.4754259Z",
+    "updatedAt": "2026-10-27T05:03:23.4754259Z"
+  },
+  {
+    "id": "f4439c0c6464bb7fa85a4af89c237ae5",
+    "title": "后端验收：入口墙面破损",
+    "description": "通过真实 HTTP 创建并验证重启持久化；保留作业验收数据",
+    "priority": "high",
+    "status": "in_progress",
+    "position": {
+      "x": 0.42,
+      "y": 0.03,
+      "z": 1.26
+    },
+    "createdAt": "2026-10-27T05:03:49.5928058Z",
+    "updatedAt": "2026-10-27T05:03:49.6034089Z"
+  },
+  {
+    "id": "0a28da3cdc13d1858f956d5b2e158c26",
+    "title": "React 联调验收：走廊地面破损",
+    "description": "通过 Go POST 创建，在 React 页面验证显示、状态更新与失败提示。",
+    "priority": "medium",
+    "status": "resolved",
+    "position": {
+      "x": 1.25,
+      "y": 0.03,
+      "z": -2.5
+    },
+    "createdAt": "2026-10-27T05:22:54.0572387Z",
+    "updatedAt": "2026-10-27T05:26:26.6283863Z"
+  },
+  {
+    "id": "789f926046c2415526a29c94aa96bee7",
+    "title": "Unity 编辑器联调验证（非真机） 091321",
+    "description": "由 UnityWebRequest 发送；固定编辑器测试 Transform，不能作为手机 AR 坐标或真机验收证据。",
+    "priority": "low",
+    "status": "open",
+    "position": {
+      "x": 0.41999998688697815,
+      "y": 0.07999999821186066,
+      "z": 1.2599999904632568
+    },
+    "createdAt": "2026-10-27T09:13:21.3509609Z",
+    "updatedAt": "2026-10-27T09:13:21.3509609Z"
+  },
+  {
+    "id": "eebd1c714952bae9a6f3a28939014642",
+    "title": "手机端AR实机测试",
+    "description": "测试AR标记放置与问题提交",
+    "priority": "medium",
+    "status": "in_progress",
+    "position": {
+      "x": 0.1867966502904892,
+      "y": -0.11868143081665039,
+      "z": 1.424998164176941
+    },
+    "createdAt": "2026-10-28T07:52:44.6401777Z",
+    "updatedAt": "2026-10-28T07:56:24.0112426Z"
+  },
+  {
+    "id": "01ce344bc5f8cdb1ce70ffa2ecc805fd",
+    "title": "第二次测试",
+    "description": "第二次AR测试",
+    "priority": "medium",
+    "status": "open",
+    "position": {
+      "x": 4.098246097564697,
+      "y": 1.230344533920288,
+      "z": 1.0226420164108276
+    },
+    "createdAt": "2026-10-28T07:59:04.1004168Z",
+    "updatedAt": "2026-10-28T07:59:04.1004168Z"
+  },
+  {
+    "id": "634d0866e6d4333b699bf3dbefd65e52",
+    "title": "键盘触摸测试",
+    "description": "验证软键盘与AR触摸交互",
+    "priority": "medium",
+    "status": "open",
+    "position": {
+      "x": 3.0835955142974854,
+      "y": 3.1470863819122314,
+      "z": 0.1495998054742813
+    },
+    "createdAt": "2026-10-28T08:07:56.7027776Z",
+    "updatedAt": "2026-10-28T08:07:56.7027776Z"
+  },
+  {
+    "id": "e4a58bcd506e1ca59058d468ecf0ed40",
+    "title": "断网提交测试",
+    "description": "验证断网时的提交情况",
+    "priority": "medium",
+    "status": "open",
+    "position": {
+      "x": 0.6238114237785339,
+      "y": 0.3914835453033447,
+      "z": 0.9001963138580322
+    },
+    "createdAt": "2026-10-28T08:17:00.2920438Z",
+    "updatedAt": "2026-10-28T08:17:00.2920438Z"
+  },
+  {
+    "id": "1628c03536780d4a95cf6ba2d711caf2",
+    "title": "第一次测试，提交测试",
+    "description": "AR测试",
+    "priority": "medium",
+    "status": "in_progress",
+    "position": {
+      "x": 1.989166021347046,
+      "y": -0.6910860538482666,
+      "z": 3.750800609588623
+    },
+    "createdAt": "2026-10-28T09:46:52.4099883Z",
+    "updatedAt": "2026-10-28T09:50:42.0073113Z"
+  }
+]
